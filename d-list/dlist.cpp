@@ -19,11 +19,10 @@ DlistNode::~DlistNode()
 	while (crawler) {
 		del = crawler;
 		free(del);
-		crawler = crawler->next;	
+		crawler = crawler->next;
 	}
 
 	head = NULL;
-		
 }
 
 void DlistNode::append(int data)
@@ -48,7 +47,7 @@ void DlistNode::print_list(void)
 
 	while (crawler) {
 		cout << crawler->data << endl;
-		crawler = crawler->next;	
+		crawler = crawler->next;
 	}
 }
 
@@ -61,6 +60,6 @@ void DlistNode::print_rev(void)
 	while (crawler != head)
 	{
 		cout << crawler->data << endl;
-		crawler = crawler->prev;		
+		crawler = crawler->prev;
 	}
 }
