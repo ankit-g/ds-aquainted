@@ -12,8 +12,8 @@ using namespace std;
 
 /*
  *	Wohahahahahah !!!!
- * */
-/*
+ * 
+ *
  *	The MaliciousBehavior class has 6 functions
  *	Each function is an elaborate plan to drown yor ass.
  *	this has following commands to do this shit okay.
@@ -21,7 +21,7 @@ using namespace std;
  *	my_attack_stratigy is where it tries to use one of his attack statigy.
  *	my_attak_methods one of the move, immidiate move
  *
- * */
+ */
 
 class MaliciousBehavior
 {
