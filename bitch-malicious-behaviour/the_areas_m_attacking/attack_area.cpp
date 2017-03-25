@@ -4,6 +4,6 @@
 
 class Atack_area
 {
-	void all_attack_areas();	
+	virtual void all_attack_areas()=0;	
 };
 

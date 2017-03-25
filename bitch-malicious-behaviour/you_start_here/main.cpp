@@ -30,7 +30,7 @@ private:
 	virtual void my_attack_stratigy(void)=0;
 	virtual void my_attak_methods(void)=0;
 	virtual void my_result_after_the_move(void)=0;
-	virtual void the_areas_m_attacking=0(void);
+	virtual void the_areas_m_attacking(void)=0;
 	virtual void the_xxx_and_the_xxx_i_use(void)=0;
 
 public: // No body should ever fucking touch this implementation
