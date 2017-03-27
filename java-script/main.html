@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Hello World</title>
+			<script>
+				function SlimShady(thereFore, why)
+				{
+					if (why > thereFore)
+						return why
+					else
+						return thereFore
+				}
+			</script>
+	</head>
+
+	<body>
+		<h1>This is My Page</h1>
+		<script>
+			var shit = 0;
+			var str = "undefined";
+			var bl = true;
+			var fl = 0.234;
+
+			var name = "Ankit Gupta";
+
+			document.write("shit = "+shit+" "+"str = "
+					+str+" "+"bl = "+bl+" "+"fl ="+fl);
+			document.write("<br>");
+			document.write(name.length);
+			document.write("<br>");
+
+			for (index = 0; index < (name.length); index++) {
+				sub_str = name.substring(index, index+1);
+				document.write(sub_str);				
+				document.write("<br>");
+			}
+			document.write("<br>");
+			document.write(SlimShady(23,13));
+		</script>
+	</body>
+
+</html>
