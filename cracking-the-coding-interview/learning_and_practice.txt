@@ -1,0 +1,50 @@
+Technical notes
+
+General Advice for Technical Questions
+Interviews are supposed to be difficult. If you don’t get every – or any – answer immediately,
+that’s ok! In fact, in my experience, maybe only 10 people out of the 120+ that I’ve interviewed
+have gotten the question right instantly.
+So when you get a hard question, don’t panic. Just start talking aloud about how you would
+solve it.
+
+And, one more thing: you’re not done until the interviewer says that you’re done! What I
+mean here is that when you come up with an algorithm, start thinking about the problems
+accompanying it. When you write code, start trying to find bugs. If you’re anything like the
+other 110 candidates that I’ve interviewed, you probably made some mistakes.
+Five Steps to a Technical Questions
+
+A technical interview question can be solved utilizing a five step approach:
+
+1. Ask your interviewer questions to resolve ambiguity.
+
+2. Design an Algorithm
+
+3. Write pseudo-code first, but make sure to tell your interviewer that you’re writing
+    pseudo-code! Otherwise, he/she may think that you’re never planning to write “real”
+    code, and many interviewers will hold that against you.
+
+4. Write your code, not too slow and not too fast.
+
+5. Test your code and carefully fix any mistakes.
+
+Step 2: Design an Algorithm
+
+Designing an algorithm can be tough, but our five approaches to algorithms can help you
+out (see pg 34). While you’re designing your algorithm, don’t forget to think about:
+
+    » What are the space and time complexities?
+    » What happens if there is a lot of data?
+    » Does your design cause other issues? (i.e., if you’re creating a modified version of a binary
+            search tree, did your design impact the time for insert / find / delete?)
+    » If there are other issues, did you make the right trade-offs?
+    » If they gave you specific data (e.g., mentioned that the data is ages, or in sorted order),
+        have you leveraged that information? There’s probably a reason that you’re given it.
+
+Step 3: Pseudo-Code
+    Writing pseudo-code first can help you outline your thoughts clearly and reduce the number
+    of mistakes you commit. But, make sure to tell your interviewer that you’re writing pseudocode
+    first and that you’ll follow it up with “real” code. Many candidates will write pseudocode
+    in order to ‘escape’ writing real code, and you certainly don’t want to be confused with
+    those candidates.
+
+
